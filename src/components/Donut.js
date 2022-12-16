@@ -1963,7 +1963,10 @@ let totinstaeng=0
 
  
 const noncumfortwit = {
-  
+  chart: {
+   
+    type: 'line'
+  },
   title: {
     text: 'Non cummulative graph for twitter'
   },
@@ -1971,7 +1974,10 @@ const noncumfortwit = {
     enabled: false
   },
   xAxis: {
-    type: 'datetime'
+    type: 'datetime',
+    labels: {
+      format: '{value:%e-%b-%y}'
+    },
 },
 
   tooltip: {
