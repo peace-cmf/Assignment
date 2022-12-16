@@ -18,6 +18,7 @@ useEffect(() => {
   });
   
 }, []);
+console.log(arr)
 
 const twittercount=[]
   const twittercumcount=[]
