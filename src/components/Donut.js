@@ -1,13 +1,6 @@
 import React   from 'react';
 import HighchartsReact from "highcharts-react-official"
 import Highcharts  from "highcharts"
-
-
-
-
-function Donut(props){
-
-
 const arr=[
   {
   "timestamp": "2022-09-07T11:07:08.484Z",
@@ -2050,6 +2043,13 @@ const cumforinsta= {
   }
 ]
 }
+
+
+
+
+function Donut(props){
+
+
 
 
   if(props.st==='twitter' && props.type==='noncum'){
